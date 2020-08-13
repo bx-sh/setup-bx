@@ -12,5 +12,3 @@ curl -O https://archive.bxsh.sh/bx-full-pre-alpha1.tar.gz
 tar zxvf bx-full-pre-alpha1.tar.gz
 
 rm bx-full-pre-alpha1.tar.gz
-
-echo "::set-env name={PATH}::{packages/bin:$PATH}"
