@@ -1,0 +1,7 @@
+name: "Setup bx"
+description: "Installs the latest version of bx (with bundled dependencies and common packages)"
+runs:
+ using: "composite"
+ steps:
+   - run: $GITHUB_ACTION_PATH/setup.sh
+     shell: bash
